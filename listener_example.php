@@ -94,19 +94,4 @@
         fclose($handle);
     }
 
-
-    //$fp = file_put_contents('results6.log', print_r($results, true));
-
-    //$json_data = json_decode($data);
-    //$obj = $json_data->payload;
-    //print_r($obj);
-    // Assemble the body of the email...
-    /*
-    $message_body = <<<EOM
-    first name: $fname \n
-    last name: $lname \n
-    nationbuilder_id: $nid \n
-    EOM;
-    mail('someone@example.com','NB Webhook Data',$message_body);
-    */
 ?>
