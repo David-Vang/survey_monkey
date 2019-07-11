@@ -34,22 +34,23 @@
         } else {
             $quiz_score = $quiz_calculation . '%';
         }
+        
 
         // get the quiz title based off $collector_id
         switch ($collector_id) {
-            case "228639627":
+            case "12345":
                 $quiz_title = "Monday - Sustainability";
                 break;
-            case "228643083":
+            case "123456":
                 $quiz_title = "Tuesday - Rocks with Ryan";
                 break;
-            case "228643596":
+            case "1234567":
                 $quiz_title = "Wednesday - Native Plants";
                 break;
-            case "228644266":
+            case "12345678":
                 $quiz_title = "Thursday - Raptors";
                 break;
-            case "228646145":
+            case "87654321":
                 $quiz_title = "Friday - Turtle Time";
                 break;
         }
